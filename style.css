@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.container {
+  background-image: url(./assets/background.png);
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  padding: 10px 18px;
+  height: 100px;
+  font-size: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.side-menu {
+  margin-top: 20px;
+  padding-left: 70px;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu li {
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 15px; 
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.side-menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.side-menu a:hover {
+  color: blue;
+}
+
